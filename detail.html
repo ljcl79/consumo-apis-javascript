@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del País</title>
+    <link rel="stylesheet" href="assets/css/detail.css" />
+</head>
+
+<body>
+    <!-- Barra de Navegación -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#norteamerica">América del Norte</a></li>
+            <li><a href="index.html#suramerica">América del Sur</a></li>
+            <li><a href="index.html#centroamerica">América Central</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor Principal -->
+    <div class="container">
+        <!-- Columna Izquierda: Bandera y Escudo -->
+        <div class="left-column">
+            <img id="country-flag" src="" alt="Bandera del país" />
+            <img id="country-coat" src="" alt="Escudo del país" />
+        </div>
+
+        <!-- Columna Derecha: Detalles del País -->
+        <div class="right-column">
+            <!-- Fila 1: Información Principal -->
+            <div class="info">
+                <h2 id="country-name"></h2>
+                <p><strong>Capital:</strong> <span id="country-capital"></span></p>
+                <p>
+                    <strong>Población:</strong> <span id="country-population"></span>
+                </p>
+                <p><strong>Idioma:</strong> <span id="country-language"></span></p>
+                <p><strong>Moneda:</strong> <span id="country-currency"></span></p>
+            </div>
+
+            <!-- Fila 2: Mapa -->
+            <div class="map-container">
+                <iframe id="country-map" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0" style="border: 1px solid black">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/detail.js"></script>
+</body>
+
+</html>

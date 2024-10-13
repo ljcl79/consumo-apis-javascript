@@ -1,0 +1,80 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Barra de Navegación */
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Columna Izquierda: Bandera y Escudo */
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.left-column img {
+    width: 300px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Columna Derecha: Información y Mapa */
+.right-column {
+    flex: 1.5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.map-container iframe {
+    border: 1px solid black;
+}
