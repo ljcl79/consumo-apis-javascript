@@ -16,17 +16,29 @@ Este proyecto es una aplicación web interactiva que permite explorar informaci�
 
 explorando-paises/
 │
+
 ├── index.html # Página principal
+
 ├── detail.html # Página de detalles de país
+
 │
+
 ├── assets/
+
 │ ├── css/
+
 │ │ ├── styles.css # Estilos generales
+
 │ │ └── detail.css # Estilos para la página de detalle
+
 │ ├── img/
+
 │ │ └── imagen1.jpg ... # Imágenes del carrusel
+
 │ └── js/
+
 │ ├── script.js # Lógica de la galería
+
 │ └── detail.js # Lógica para mostrar los detalles de un país
 
 
